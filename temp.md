@@ -1,0 +1,65 @@
+esVersion=7.11.1 esClusterName=elasticsearch \
+vmDataDiskCount=1 dataNodesAreMasterEligible=Yes \
+adminUsername=russ adminPassword=Password1234 \
+securityBootstrapPassword=bootstrapPassword123 \
+securityAdminPassword=adminPassword123 \
+securityKibanaPassword=kibanaPassword123 \
+securityLogstashPassword=logstashPassword123 \
+securityBeatsPassword=beatsPassword123 \
+securityApmPassword=apmPassword123 \
+securityRemoteMonitoringPassword=remoteMonitoringPassword123 \
+  loadBalancerType=internal \
+loadBalancerInternalSku=Basic \
+loadBalancerExternalSku=Basic \
+azureCloudPlugin=No \
+xpackPlugins=Yes \
+esHeapSize=0 \
+esHttpCertBlob="" \
+esHttpCertPassword="" \
+esHttpCaCertBlob="" \
+esHttpCaCertPassword="" \
+esTransportCaCertBlob="" \
+esTransportCaCertPassword="" \
+esTransportCertPassword="" \
+samlMetadataUri="https://login.microsoftonline.com/26a1e041-d3a2-4d59-a14a-acaedd98e798/federationmetadata/2007-06/federationmetadata.xml?appid=f4596db2-956c-4c68-b545-b9586139f1c7" \
+samlServiceProviderUri=""  \
+kibana=Yes \
+vmSizeKibana=Standard_DS1_v2 \
+vmKibanaAcceleratedNetworking=Default \
+kibanaCertBlob="" \
+kibanaKeyBlob="" \
+kibanaKeyPassphrase="" \
+kibanaAdditionalYaml="" \
+logstash=Yes \
+vmSizeLogstash=Standard_DS1_v2 \
+vmLogstashCount=1 \
+vmLogstashAcceleratedNetworking=Default \
+logstashHeapSize=0  \
+logstashConf=""  \
+logstashKeystorePassword=""  \
+logstashAdditionalPlugins=""  \
+logstashAdditionalYaml=""  \
+jumpbox=No \
+vmHostNamePrefix="" \
+vmSizeDataNodes=Standard_DS1_v2 \
+vmDataNodeAcceleratedNetworking=Default \
+vmDataDiskCount=40 \
+vmDataDiskSize=32GiB \
+vmDataNodeCount=3 \
+storageAccountType=Default \
+dataNodesAreMasterEligible=Yes \
+vmSizeMasterNodes=Standard_DS1_v2 \
+vmMasterNodeAcceleratedNetworking=Default \
+vmClientNodeCount=0 \
+vmSizeClientNodes=Standard_DS1_v2 \
+vmClientNodeAcceleratedNetworking=Default \
+adminUsername=a1groupadmin \
+authenticationType=sshPublicKey \
+sshPublicKey="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDZky6jV+n9h544ahxzNPjXSUnefQ4QP22UgupMF64QDxyoeclKPtJL6T+CE+aU/XGMWfIrHwEN5Z3BPqY4LQQ2vvSZH2RJqTkbgTrn5vkYEAUt+zqPscI9KMf3HhQGSbBWgE187cmjNxewzun2uBKCflWiba+5bwe5FD9G6fDD1He6tnk9/EhFF+1+FTSL3biE+7XCvN0M4JynPUEkU4Mr8AUzBuujCriqp8JCZAiFJRIoR5UkSajppQLbjAShIjJtpKDOUxvRjqyGbxEGGPSO6NNSDikYcPukjbrKBJiNSoZ86+OuKonmYAZkMSuyVJqRBslYkZB8Y+T1SWTzAB/1gZun3faq6hcAVWuhVSsyuY9NIhn2eGpgytoFHC/c4VtaPakpC681AaRxA9QsiWaYV0ONCch1SqXMb4kwRQpdql6lw2T3Kmd7R4raIJ+xwhnF0RvmaJoYX0qDCNEYx3SMhLIIhJ1mKwWELibktN4nfmLYRjz09Gk7LeUcf0CSBv0= generated-by-azure" \
+vNetNewOrExisting=new \
+vNetName=BG-VN-ES-001 \
+vNetExistingResourceGroup=BG-RG-ElasticStack-001 \
+vNetNewAddressPrefix=10.155.27.0/24 \
+vNetLoadBalancerIp=10.155.27.4 \
+vNetClusterSubnetName=es-subnet \
+vNetNewClusterSubnetAddressPrefix=10.155.27.0/25 \
